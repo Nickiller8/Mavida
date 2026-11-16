@@ -18,7 +18,7 @@ from google.colab import files
 
 uploaded = files.upload()
 
-df = pd.read_csv("dataset.csv")
+df = pd.read_csv("data.csv")
 
 print(df.head())
 print("\nDataset size:", df.shape)
